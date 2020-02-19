@@ -1,0 +1,115 @@
+
+/*for big tablets 1023px to 1200px*/
+@media only screen and (max-width:1200px){
+
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row{padding: 0 2%;}
+}
+
+
+
+/*for landscape for tablet to big tablet 768px to 1023px*/
+@media only screen and (max-width:1023px){
+
+    body{
+        font-size: 18px;
+    }
+
+    .section{
+        padding: 60px 0;
+    }
+
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }
+    .work-steps { margin-bottom: 40px; }
+    .work-steps:last-of-type { margin-bottom: 60px; }
+    
+    .app-screen { width: 50%; }
+    
+    .icon-small { 
+        width: 17px;
+        margin-right: 5px; 
+    }
+
+    .plan-box{
+        margin-left: 2px;
+    width: 100%;
+    }
+
+    .contact-form{
+        width: 80%;
+    }
+
+}
+/*for small phone to small tablets 481 to 768px*/
+@media only screen and (max-width:768px){
+
+    body{
+        font-size: 16px;
+    }
+
+    section{
+        padding: 30px 0;
+    }
+
+    .row,.hero-text-box{
+        padding: 0 4%;
+    }
+
+    .col{
+        width: 100% ;
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav{
+        display: none;
+    }
+    h1{
+        font-size: 180%;
+    }
+
+    h2{font-size: 150%;}
+
+    .long-copy{
+        width:100%;
+        margin-left: 0%;
+    }
+
+    .work-steps { margin-bottom: 20px; }
+    .work-steps:last-of-type { margin-bottom: 20px; }
+
+    .step-box:first-child { text-align: center; }
+
+
+    .work-steps div {
+        width: 40px;
+        height: 40px;
+        padding: 4px;
+        margin-right: 15px;
+        font-size: 100%;
+    }
+
+    .app-screen { width: 40%; }
+}
+
+
+/*for small phone 0 to 480px*/
+@media only screen and (max-width:480px){
+
+    .section{
+        padding: 25% 0;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+}
