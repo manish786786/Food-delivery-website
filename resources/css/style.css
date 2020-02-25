@@ -32,6 +32,45 @@ html{
 }
 
 
+/* mobile nav */
+
+.mobile-nav-icon{
+    display: none;
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* stcky nav */
+
+.sticky{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 2px grey;
+    z-index: 9999;
+}
+
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #555;
+}
+
+.sticky .logo {
+    display: none;
+}
+
+.sticky .logo-black {
+    display: block;
+}
+
+.sticky .main-nav{
+    margin-top: 18px;
+}
 /*---------------------------------------------------------------*/
 /*LINKS*/
 /*---------------------------------------------------------------*/
@@ -201,11 +240,19 @@ header{
             transform: translate(-50%,-50%);
 }
 
-.logo{
+.logo {
     width: auto;
     height: 100px;
     float: left;
     margin-top: 20px;
+}
+
+.logo-black{
+    display: none; 
+    width: auto;
+    height: 50px;
+    float: left;
+    margin: 5px 0; 
 }
 
 .main-nav{
@@ -585,3 +632,15 @@ footer p{
     color: rgb(59, 156, 189);
     margin-right: 10px;
 }
+
+/* animation */
+
+
+.js-animate1{
+    opacity: 0;
+}
+
+.js-animate1 .animated {
+    opacity: 1;
+}
+
